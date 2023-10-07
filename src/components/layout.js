@@ -31,7 +31,7 @@ const Layout = ({ location, title, children }) => {
           <div id="chat-box">
         <div className="chat-header">Chat</div>
         <div className="chat-content"></div>
-        <input type="text" id="chat-input" placeholder="Type a message...">
+        <input type="text" classNam="chat-input" placeholder="Type a message...">
     </div>
       </footer>
     </div>
