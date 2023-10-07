@@ -386,7 +386,35 @@ a:focus {
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
+.chat-box {
+            position: fixed;
+            bottom: 0;
+            right: 20px;
+            width: 300px;
+            border: 1px solid #ccc;
+            background-color: #f8f8f8;
+            display: none;
+        }
 
+        .chat-header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+       .chat-content {
+            padding: 10px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .chat-input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
 /* Media queries */
 
 @media (max-width: 42rem) {
