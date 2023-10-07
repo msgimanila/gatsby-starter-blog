@@ -29,11 +29,7 @@ const Layout = ({ location, title, children }) => {
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
-          <div id="chat-box">
-        <div className="chat-header">Chat</div>
-        <div className="chat-content"></div>
-        <input type="text" className="chat-input" placeholder="Type a message..."></input>
-    </div>
+        <ChatBox />
       </footer>
     </div>
   )
