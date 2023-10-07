@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import ChatBox from "ChatBox"
+ 
 
 
 const Layout = ({ location, title, children }) => {
@@ -33,7 +33,7 @@ const Layout = ({ location, title, children }) => {
         <a href="https://www.gatsbyjs.com">Gatsby</a>
        
       </footer>
-        <ChatBox />
+       
     </div>
   )
 }
